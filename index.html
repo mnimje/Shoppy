@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Shoppy</title>
+    </head>
+    <body ng-controller="homeController">    
+        <!-- Multi View -->
+        <div id="wrap">
+            <div ui-view="headerView"></div>
+            <div ui-view ="mainView" class="mainContainer"></div>
+        </div>
+        <div ui-view ="footerView"></div>  
+        
+        <!-- css loading-->
+        <link href="css/bootstrap.css" rel="stylesheet"/>
+        <link href="css/bootstrap-theme.css" rel="stylesheet"/>
+        <link href="css/reset.css" rel="stylesheet"/>
+        <link href="css/style.css" rel="stylesheet"/>
+        
+        <!-- JS loading -->
+        <script src="script/angular.js"></script>
+        <script src="script/angular-router.js"></script>        
+        <script src="script/jquery.js"></script>
+        <script>
+          var $$ = $.noConflict(true);
+        </script>
+        <script src="script/angular-ui-bootstrap.js"></script>
+        <script src="script/config.js"></script>
+        <script src="script/controller.js"></script>
+        
+    </body>
+</html>

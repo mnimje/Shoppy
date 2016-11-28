@@ -1,0 +1,46 @@
+{
+    "Items":[
+        {
+           "name":"Puma Shoes",
+            "price":"1800",
+            "status":"Available",
+            "quantity":5,
+            "description":"Puma shoes golden white color"
+        },
+        {
+           "name":"Nike Shoes",
+            "price":"2800",
+            "status":"Available",
+            "quantity":10,
+            "description":"Nike shoes golden white color"
+        },
+        {
+           "name":"Nike Shoes 1",
+            "price":"800",
+            "status":"Available",
+            "quantity":10,
+            "description":"Nike shoes golden white color"
+        },
+        {
+           "name":"Nike Shoes 2",
+            "price":"800",
+            "status":"Available",
+            "quantity":10,
+            "description":"Nike shoes golden white color"
+        },
+        {
+           "name":"Nike Shoes 3",
+            "price":"800",
+            "status":"Available",
+            "quantity":10,
+            "description":"Nike shoes golden white color"
+        },
+        {
+           "name":"Nike Shoes 4",
+            "price":"800",
+            "status":"Available",
+            "quantity":10,
+            "description":"Nike shoes golden white color"
+        }
+    ]
+}
